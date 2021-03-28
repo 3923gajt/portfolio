@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 文字コードの指定 */
+html {
+  font-size: 62.5%;
+  font-color: #7b7b7b;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Chalkboard";
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #7b7b7b;
+  background-color: #fff;
+}
+@media (min-width: 769px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+a {
+  color: #7b7b7b;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.wrapper {
+  max-width: 112rem;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 0 0 0 2rem;
+  box-sizing: border-box;
+}
+@media (min-width: 769px) {
+  .header {
+    padding: 0 3rem 0 1rem;
+  }
+}
+.header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.nav-button {
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+@media (min-width: 769px) {
+  .nav-button {
+    display: none;
+    color: #b19833;
+  }
+}
+
+.sp-nav {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  display: none;
+  z-index: 1000;
+  width: 100%;
+  padding-top: 8rem;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.sp-nav-list {
+  z-index: 1000;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  list-style: none;
+}
+.sp-nav-list li {
+  margin-bottom: 2rem;
+}
+.sp-nav-list a {
+  color: #7b7b7b;
+  font-size: 4rem;
+}
+
+.sp-nav-map-sns {
+  display: flex;
+  margin: 20px 10px 0 30px;
+}
+
+.sp-nav-map-sns li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2.4rem;
+  color: #ebd47a;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.sp-nav-map-sns a {
+  color: #b19833;
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
