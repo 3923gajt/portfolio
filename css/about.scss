@@ -5,12 +5,20 @@
     
 }
 
-.about-title h3{
-    margin-right: 2rem;
+.name-image{
+    text-align: center;
 }
 
-.about-sub{
-    margin-top: 0.3rem;
+.name-image img{
+     width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin: 0 auto;
+}
+
+.about-title h3{
+    margin-right: 2rem;
 }
 
 .about-text{

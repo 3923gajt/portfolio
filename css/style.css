@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* 文字コードの指定 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 html {
   font-size: 62.5%;
   font-color: #7b7b7b;
@@ -37,6 +38,10 @@ img {
 
 p {
   font-family: "Noto Sans JP", sans-serif;
+}
+
+h5 {
+  font-size: 18px;
 }
 
 .header {
@@ -156,9 +161,11 @@ p {
 }
 
 .name {
-  display: flex;
-  width: 100%;
-  flex-direction: row-reverse;
+  position: absolute;
+  right: 30px;
+  z-index: 1;
+  margin-top: 40px;
+  color: #525151;
 }
 
 .main-image img {
@@ -173,18 +180,38 @@ p {
   height: auto;
 }
 
+.slick-slide img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slick-dots {
+  bottom: 25px;
+  right: 40px;
+}
+
 .section-title {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
-.about-title h3 {
-  margin-right: 2rem;
+.name-image {
+  text-align: center;
 }
 
-.about-sub {
-  margin-top: 0.3rem;
+.name-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.about-title h3 {
+  margin-right: 2rem;
 }
 
 .about-text {
@@ -230,10 +257,6 @@ p {
 
 .skill-title h3 {
   margin-right: 2rem;
-}
-
-.skill-sub {
-  margin-top: 0.3rem;
 }
 
 .skill-text {
