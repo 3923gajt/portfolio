@@ -29,59 +29,105 @@
                 <li><a href="about.html">about</a></li>
                 <li><a href="skill.html">skill</a></li>
             </ul>
-            <ul class="map-sns">
+            <ul class="sp-nav-sns">
+                    <li><a href="mailto:3923gajt@gmail.com"><i class="far fa-envelope"></i></a></li>
                     <li><a href="https://twitter.com/TwitterJP" target="_blank"><i class="fab fa-twitter" aria-label="twitter"></i></a></li>
                     <li><a href="https://www.facebook.com/facebookappJapan/" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/"><i class="fab fa-instagram" aria-label="instagram"></i></a></li>
             </ul>
         </nav>
-     </div>    
+        
+         <!-- PCナビ -->
+        <nav class="pc-nav">
+            <ul class="pc-nav-list">
+                <li><a href="index.html">top</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="skill.html">skill</a></li>
+            </ul>
+        </nav>
+        </div>
+     
     </header>
     
     <main>
      <section class="top">
-       <div class="name"><h1>MEGUMI <br>MINAGAWA</h1><div>
-        <div class="main-image"> <img src="./images/top/baby.jpeg"></img></div>
+       <div class="name"><h1 class="main-name">MEGUMI <br>MINAGAWA</h1><div>
+        <div class="carousel">
+         <div class="main-image"> 
+           <!--<img src="./images/top/baby.jpeg"></img>-->
+                <div>
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./images/top/baby.jpeg">
+                        <img src="./images/top/baby.jpeg" alt="">
+                    </picture>
+                </div>
+                
+                <div>
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./images/top/top-photo.jpeg">
+                        <img src="./images/top/top-photo.jpeg" alt="">
+                    </picture>
+                </div>
+                
+                <div>
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./images/top/top-photo2.jpeg">
+                        <img src="./images/top/top-photo2.jpeg" alt="">
+                    </picture>
+                </div>
+         
+
+        </div>
+        </div>
      </section>  
      
-     <section class="about">
+     <section class="top-about">
         
         <div class="name-image"><img src="./images/top/photo.jpg" alt=""></div>
         <div class="section-title">
-            <h3>about</h3>
-            <h5>自己紹介</h5>
+            <div class="about-title"><h3>- about</h3></div>
+            <div class="about-sub"><h5>自己紹介</h5></div>
         </div>    
-            <div><p>おもいやりとこころをこめてデザインすることを心がけています。<br>運動・写真撮影・家族・犬・ディズニーが大好きです。</p></div>
+            <div class="about-text"><p>おもいやりとこころをこめてデザインすることを心がけています。<br>運動・写真撮影・家族・犬・ディズニーが大好きです。</p></div>
         
         
-       <div class="button"><a href="about.html">LEARN MORE ></a></div>
+       <div class="more-button"><a href="about.html">LEARN MORE ></a></div>
        
      </section>
      
-     <section class="skills">
+     <section class="top-skills">
         
         <div class="section-title">
-            <h3>skills</h3>
-            <h5>作品実績</h5>
+            <div class="skill-title"><h3>- skills</h3></div>
+            <div class="skill-sub"><h5>作品実績</h5></div>
         </div>
         
+      <div class="skill-section-title">  
         <h5>photo</h5>
         <a href="skill.html"><img src="./images/top/skill.JPG" alt=""></a>
-        
+      </div>
+      
+      <div class="skill-section-title"> 
         <h5>website</h5>
         <a href="skill.html"><img src="./images/skill/website.jpg" alt=""></a>
-        
+      </div>  
+      
+      <div class="skill-section-title"> 
         <h5>banner</h5>
         <a href="skill.html"><img src="./images/skill/banner.jpg" alt=""></a>
-        
-        <div class="button"><a href="about.html">LEARN MORE ></a></div>
+      </div>    
+      
+      
+        <div class="more-button"><a href="about.html">LEARN MORE ></a></div>
         
     </section>    
         
     </main>
     
     <footer>
-        ©megumi minagawa
+    <section class="footer">
+        <div> ©megumi minagawa</div>
+    </section>
     </footer>
     
     <!-- JS -->

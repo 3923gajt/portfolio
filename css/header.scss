@@ -69,29 +69,52 @@
     }
 }
 
-.sp-nav-map-sns{
+.sp-nav-sns{
     display: flex;
-    margin: 20px 10px 0 30px;
+    justify-content: center;
+
 }
-.sp-nav-map-sns li {
+.sp-nav-sns li {
         list-style: none;
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 3rem;
-        height: 3rem;
-        // margin: 0;
         font-size: 2.4rem;
-        color: #ebd47a;
-        background-color: #fff;
-        border-radius: 50%;
-        margin: 4px;
-        
+        margin: 10px; 
+        margin-right: 40px;
 }
 
-.sp-nav-map-sns a{
-     color: #b19833;
+.sp-nav-sns a{
+     color: #7b7b7b;
      display: flex;
-     
+
 }
+
+// pcナビ
+
+.pc-nav {
+    display: none;
+    @media (min-width: 769px) {
+        display: block;
+        
+    }
+}
+
+.pc-nav-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #7b7b7b;
+   
+    li {
+        margin: 0 2rem 0 4rem;
+        opacity: 0.8;
+        font-size: 2rem;
+       
+    }
+    
+    a {
+        color: #7b7b7b;
+    }
+}
+

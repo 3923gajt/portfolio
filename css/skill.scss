@@ -1,0 +1,63 @@
+.top-skills{
+    margin-top: 7rem;
+}
+
+.section-title{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skill-title h3{
+    margin-right: 2rem;
+}
+
+.skill-sub{
+    margin-top: 0.3rem;
+}
+.skill-text{
+    margin: 1rem 3rem;
+    line-height: 2.5rem;
+}
+
+.skill-section-title {
+    padding: 0 20px;
+}
+
+// about下層ページ
+
+.sub-skill{
+    padding: 20px;
+    
+}
+
+.skill-sub-title{
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+
+.skill-box-img img{
+    max-width: 100%;
+}
+
+.skill-category{
+    text-align: center;
+    
+    @media (min-width: 769px){
+        width: 50%;
+    }
+}
+
+.category-list li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+//skill-pc
+
+.pc-skill-bigbox{
+    @media (min-width: 769px){
+        display: flex;
+    }
+}

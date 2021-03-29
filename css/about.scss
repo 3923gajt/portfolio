@@ -1,0 +1,51 @@
+.section-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+.about-title h3{
+    margin-right: 2rem;
+}
+
+.about-sub{
+    margin-top: 0.3rem;
+}
+
+.about-text{
+    margin: 1rem 3rem;
+    line-height: 2.5rem;
+}
+
+
+// about下層ページ
+
+.sub-about{
+    padding: 20px;
+    text-align: center;
+}
+
+.about-sub-title{
+    margin-top: 5rem;
+    
+}
+
+.about-image-box{
+    padding: 4rem 0;
+}
+
+.about-image-box-text{
+    margin-top: 5rem;
+}
+
+
+.message-image{
+    margin-top: 3rem;
+}
+
+.message-image img{
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+}

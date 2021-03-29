@@ -1,0 +1,26 @@
+.top{
+    margin-top: 8rem;
+    padding: 20px;
+}
+
+
+// main画像と名前
+.name{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    
+}
+
+.main-image img{
+    border-radius: 50%;
+    width: 16rem;
+    height: 16rem;
+}
+
+.carousel{
+    width: 100%;
+    margin: 0 auto;
+    height:auto;
+    
+}
