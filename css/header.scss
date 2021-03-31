@@ -32,7 +32,7 @@
     // opacity: 0.7;
     @media (min-width: 769px) {
         display: none;
-        color: #b19833;
+
     }
 }
 
@@ -118,3 +118,14 @@
     }
 }
 
+.pc-nav-sns {
+    //  display: none;
+     
+     @media (min-width: 769px) {
+     position: fixed;    
+     list-style: none;
+     right: 15px;
+     bottom: 200px;
+     font-size: 35px;
+     }
+}
