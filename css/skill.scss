@@ -1,5 +1,5 @@
 .top-skills{
-    margin-top: 7rem;
+    margin-top: 9rem;
 }
 
 
@@ -15,14 +15,51 @@
     justify-content: center;
     
     @media (min-width: 769px) {
-     font-size: 2.5rem;
-     margin-right: 30rem;
+     font-size: 3.5rem;
+     margin-right: 42rem;
      
     
     }
     
     
 }
+.top-skill-image{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+// top-skill-imgをホバーした時に工夫したい
+
+// .top-skill-image{
+//   position: relative;
+//   overflow: hidden;
+//   width: 300px;
+// }
+// .top-skill-image{
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: 2;
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(0,0,0,.6);
+//   -webkit-transition: .3s;
+//   transition: .3s;
+//   opacity: 0;
+// }
+// .top-skill-image:hover figcaption {
+//   opacity: 1;
+// }
+
+// .top-skill-image-text{
+//     font-size: 18px;
+//     text-align: center;
+//     @media (min-width: 769px) {
+//      font-size: 20px;
+//     }
+    
+    
+// }
 
 .skill-title h3{
     margin-right: 2rem;
@@ -41,6 +78,9 @@
 
 .sub-skill{
     padding: 20px;
+    @media (min-width: 769px){
+        font-size: 3rem;
+    }
     
 }
 
