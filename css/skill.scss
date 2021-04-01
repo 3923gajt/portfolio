@@ -6,9 +6,12 @@
 .skill-pc{
     @media (min-width: 769px) {
         display: flex;
+        text-align: center;
        
     }
 }
+
+
 
 .section-title-skill{
     display: flex;
@@ -16,7 +19,7 @@
     
     @media (min-width: 769px) {
      font-size: 3.5rem;
-     margin-right: 42rem;
+    //  margin-right: 42rem;
      
     
     }
@@ -27,6 +30,31 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     
 }
+
+//hover時にフラッシュ
+.top-skill-image:hover img {
+  opacity: 1;
+  -webkit-animation: flash 2s;
+  animation: flash 2s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+    
+}
+
 
 // top-skill-imgをホバーした時に工夫したい
 
