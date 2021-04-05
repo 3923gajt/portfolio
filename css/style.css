@@ -48,6 +48,10 @@ h5 {
   margin-top: 8rem;
 }
 
+.white {
+  background-color: #ffffff;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -331,6 +335,9 @@ h5 {
 
 .about-sub-title {
   margin-top: 5rem;
+  text-align: center;
+  padding: 5rem 0;
+  font-size: 3rem;
 }
 
 .about-image-box {
@@ -462,7 +469,7 @@ h5 {
 }
 
 .top-skill-image {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .top-skill-image:hover img {
@@ -512,6 +519,8 @@ h5 {
 .skill-sub-title {
   margin-top: 5rem;
   text-align: center;
+  font-size: 3rem;
+  padding: 5rem 0;
 }
 
 .skill-box-img img {
@@ -548,7 +557,7 @@ h5 {
 }
 
 .pc-skill-box img {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .more-button {
@@ -575,7 +584,7 @@ h5 {
   content: "";
   width: 100%;
   height: 2px;
-  background: #333;
+  background: #7b7b7b;
   transform: scale(0, 1);
   transform-origin: left top;
   transition: transform 0.3s;
