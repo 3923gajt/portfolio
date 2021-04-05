@@ -147,7 +147,16 @@
 }
 
 .pc-skill-box{
-        @media (min-width: 769px){
+    // box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    @media(min-width: 769px){
         width: 70%;
     }
 }
+
+.pc-skill-box img{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+
+
+

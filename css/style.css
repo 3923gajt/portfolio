@@ -44,6 +44,10 @@ h5 {
   font-size: 20px;
 }
 
+.coming-soon {
+  margin-top: 8rem;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -541,6 +545,10 @@ h5 {
   .pc-skill-box {
     width: 70%;
   }
+}
+
+.pc-skill-box img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .more-button {
