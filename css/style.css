@@ -560,6 +560,16 @@ h5 {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.skill-box-website-text {
+  text-align: center;
+  font-size: 1.2rem;
+}
+@media (min-width: 769px) {
+  .skill-box-website-text {
+    font-size: 1.5rem;
+  }
+}
+
 .more-button {
   margin-top: 3rem;
   float: right;
@@ -595,7 +605,7 @@ h5 {
 }
 
 .footer {
-  margin-top: 7rem;
+  margin-top: 10rem;
   text-align: center;
 }
 
