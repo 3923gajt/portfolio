@@ -525,6 +525,12 @@ h5 {
 
 .skill-box-img img {
   max-width: 100%;
+  transition: 0.3s;
+}
+
+.skill-box-img:hover img {
+  transform: scale(1.05, 1.05);
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .skill-category {
