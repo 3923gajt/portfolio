@@ -334,7 +334,6 @@ h5 {
 }
 
 .about-sub-title {
-  margin-top: 5rem;
   text-align: center;
   padding: 5rem 0;
   font-size: 3rem;
@@ -399,6 +398,7 @@ h5 {
 
 .about-image-box-text-white {
   margin-top: 5rem;
+  font-family: "Kiwi Maru", serif;
 }
 @media (min-width: 769px) {
   .about-image-box-text-white {
@@ -407,8 +407,7 @@ h5 {
     text-align: center;
     position: absolute;
     color: #fff;
-    font-weight: 900;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 10px black;
   }
 }
 
@@ -425,12 +424,15 @@ h5 {
 .camera {
   top: 100px;
   right: 200px;
-  font-color: black;
+  color: #666;
+  text-shadow: none;
 }
 
 .hoken {
-  top: 250px;
-  right: 500px;
+  top: 100px;
+  right: 250px;
+  color: #666;
+  text-shadow: none;
 }
 
 .gakudou {
@@ -604,6 +606,11 @@ h5 {
   .skill-box-website-text {
     font-size: 1.5rem;
   }
+}
+
+.side-skill {
+  border-top: dotted;
+  margin: 20px 70px;
 }
 
 .more-button {

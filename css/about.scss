@@ -108,7 +108,7 @@
 }
 
 .about-sub-title{
-    margin-top: 5rem;
+    // margin-top: 5rem;
     text-align: center;
     padding: 5rem 0;
     font-size: 3rem;
@@ -172,7 +172,7 @@
 
 .about-image-box-text-white{
     margin-top: 5rem;
-    
+    font-family: 'Kiwi Maru', serif;
     @media (min-width: 769px){
         z-index: 100;
         font-size: 3.5rem;
@@ -181,8 +181,8 @@
         // top: 100px;
         // left: 200px;
         color: #fff;
-        font-weight: 900;
-        text-shadow: 0 0 10px rgba(0,0,0,0.8); // 横の位置 縦の位置 ぼかし具合 色
+        // font-weight: 900;
+        text-shadow: 0 0 10px rgba(0,0,0,1); // 横の位置 縦の位置 ぼかし具合 色
     }
     
 }
@@ -198,12 +198,15 @@
 .camera{
     top: 100px;
     right: 200px;
-    font-color: black;
+    color: #666;
+     text-shadow: none;
 }
 
 .hoken{
-    top: 250px;
-    right: 500px;
+    top: 100px;
+    right: 250px;
+    color: #666;
+     text-shadow: none;
 }
 
 .gakudou{
